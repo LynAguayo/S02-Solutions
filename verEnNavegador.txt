@@ -1,3 +1,3 @@
-També pots visitar les pàgines en el navegador. Fet utilitzant Netlify.
+També pots visitar les pàgines al navegador. Fet amb Netlify.
 Link: https://s02solutions.netlify.app/
 
