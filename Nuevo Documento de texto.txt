@@ -1,0 +1,4 @@
+També pots visitar les pàgines en el navegador. Fet utilizant Netlify.
+
+
+

@@ -1,0 +1,87 @@
+
+body {
+    background-color: #ffffff; /* Color del fondo  */
+    margin: 20px; /* Espacio alrededor del contenido, significa que habrá 20 píxeles de espacio vacío en todos los lados (arriba, abajo, izquierda y derecha) del contenido del body */
+    font-family: Arial, sans-serif; /* Tipografía */
+}
+
+h1 {
+    color: #ffffff; /* Color del título */
+    background-color: #FFAEBC; /* Color del fondo */
+    padding: 20px; /* Espacio interior del título, significa que dentro del elemento h1, habrá 20 píxeles de espacio entre el texto y el borde. */
+    border-radius: 0; /* Bordes sin redondear */
+    text-align: center; /* El texto estarácentrado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del título */
+    margin: 0; /* Elimina el margen alrededor */
+    width: 100%; /* El título ocupa todo el ancho */
+}
+
+.button {
+    background-color: #FFAEBC; /*Color del fondo*/
+    border: none; /* Sin borde */
+    color: #ffffff; /* Color del texto */
+    padding: 15px 32px; /* Define tamaño de los botones */
+    text-decoration: none; /* Quita el subrayado del texto al usar <a> */
+    display: inline-block; /* Los botones estarán alineados*/
+    text-align: center; /* Texto centrado */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    border-radius: 12px; /* Bordes redondeados en el botón */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+    transition: background-color 0.3s ease, transform 0.2s; /* Hace una transición suave ("ease") al cambiar el color de fondo y aplicar el zoom, con tiempos de 0.3 y 0.2 segs*/
+    margin: 10px 0; /* Define el margen vertical entre botones */
+}
+
+.button:hover {
+    background-color: rgb(243, 113, 193); /* Cambio de color al pasar el mouse */
+    transform: scale(1.05); /* Aumenta un poco el tamaño al pasar el mouse */
+}
+
+.description {
+    text-align: center; /* Texto centrado */
+    margin: 20px 0; /* Margen arriba y abajo */
+    font-size: 16px; /* Tamaño de texto */
+    color: #333333; /* Color del texto */
+}
+
+.links {
+    text-align: center; /* Texto centrado */
+    margin: 20px 0; /* Margen arriba y abajo */
+    font-size: 14px; /* Tamaño de fuente */
+    color: #555555; /* Color para enlaces */
+}
+
+img {
+    border-radius: 8px; /* Bordes redondeados en imag */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade sombra a las img */
+    transition: transform 0.2s; /* Transición suave para zoom */
+}
+
+img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse por la img */
+}
+
+/** TABLA **/
+table {
+    width: 100%; /* La tabla ocupa todo el ancho */
+    border-collapse: collapse; /* Quita los espacios entre celdas */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Defone los bordes de las celdas */
+    padding: 8px; /* Espacio interno en las celdas */
+    text-align: left; /* Texto alineado a la izquierda */
+}
+
+th {
+    background-color: #FFAEBC; /* Fondo del encabezado */
+    color: white; /* Color del texto en el encabezado */
+}
+
+tr:nth-child(even) {
+    background-color: #f1d9dd; /* Color en filas pares */
+}
+
+tr:hover {
+    background-color: #faa3b3; /* Color al pasar el mouse */
+}
